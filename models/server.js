@@ -24,6 +24,7 @@ class Server {
         //directorio publico 
         this.app.use(express.static('public'));
 
+        //lectura y parseo del body
         this.app.use(express.json());
     }
 
